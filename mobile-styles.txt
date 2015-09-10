@@ -1,0 +1,25 @@
+Mobile Stylesheet
+
+HEADER
+height: 40px
+background: #acd373
+
+LOGO
+left: 30px
+vertically centered
+
+NAV BUTTON
+height: 40px
+width: 40px
+background: #89a85c
+    Icon-nav hamburger
+    vertically and horizonally centered
+    
+FIRST SECTION
+background: #9abd67 (plus skyline silhouette image)
+
+HEADER TEXT
+font: Source Sans Pro Bold
+font-size: 20px
+color: #f7f7f7
+
