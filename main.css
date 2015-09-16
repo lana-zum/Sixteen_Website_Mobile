@@ -2,8 +2,39 @@ body{
     width: 360px
 }
 
+.nav{
+    background: #acd373;
+    width: 360px; 
+    height: 40px;
+    
+}
+
+.sixteen-logo{
+    padding-left: 30px;
+    padding-top: 9px;
+}
+
+.toggle{
+    float:right;
+}
 
 .greeting{
-    background: #9abd67 no-repeat height: 350350px;
-    background-image: url();
+    height: 350px;
+    width: 360px;
+    background: url(images/bkg-header-silhouette.png) no-repeat #9abd67 bottom;
+    color:#f7f7f7;
 }
+
+.greeting h1{
+    font-family:'Source Sans Pro';
+    font-size: 20px;
+    padding: inherit
+}
+
+.greeting span{
+    font-family:'Source Sans Pro';
+    font-size: 10px;
+    padding: inherit
+}
+    
+    
