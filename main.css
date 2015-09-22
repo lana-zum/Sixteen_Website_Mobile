@@ -8,7 +8,8 @@ h1, h2, h3{
 }
 
 section{
- padding: 30px;   
+    width: 360px;
+    padding: 30px;   
 }
 
 
@@ -28,9 +29,8 @@ header{
 }
 
 .toggle{
-/*    float: right;*/
     position: absolute;
-/*    absolute position is referencin the parent nav position which is relative*/
+/*    absolute position is referencing the parent section position which is relative*/
     top: 0px;
     right: 0px;
     
@@ -67,6 +67,7 @@ header{
     padding: inherit
     font-weight: normal;
     margin-top: 0;
+    text-transform: capitalize;
 }
 
 .greeting span{
@@ -75,9 +76,18 @@ header{
     padding: ;
 }
 
+.down-arrow{
+    padding: 30px;
+}
+
 .who-we-are .iphone{
     margin: 0 auto;
     display: block;
+}
+
+.center-image{
+    display: block;
+    margin:auto;
 }
 
 .who-we-are h2{
@@ -102,4 +112,21 @@ header{
 
 .video-learnmore{
     padding: 0;
+}
+
+.our-services {
+    width: 360px; 
+    height: 40px;
+    position: relative;
+}
+
+.our-services .quote{
+    position: absolute;
+    margin: 5px;
+    text-align: center;
+}
+
+.line-with-dot {
+    margin: 30px;
+    position: absolute;
 }
